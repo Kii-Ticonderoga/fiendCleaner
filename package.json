@@ -1,0 +1,25 @@
+{
+  "name": "fiendcleaner",
+  "version": "1.0.0",
+  "description": "definitely not pac man",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Montana-Code-School/fiendCleaner.git"
+  },
+  "keywords": [
+    "pacman"
+  ],
+  "author": "Montana Code School - Missoula Cohort 6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Montana-Code-School/fiendCleaner/issues"
+  },
+  "homepage": "https://github.com/Montana-Code-School/fiendCleaner#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
