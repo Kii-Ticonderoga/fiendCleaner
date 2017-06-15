@@ -1,0 +1,10 @@
+
+
+
+class GCGhostsModel {
+      constructor(){
+
+      }
+
+
+}
