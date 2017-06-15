@@ -1,7 +1,7 @@
 import FiendCleanerModel from './FiendCleanerModel'
 
 const board = "xxxxxxxxxxxxxxxxxxxxx\n \
-               x...x.....x.....x...x\n \
+               x..Gx.....x.....x...x\n \
                x.x..x.x...x.x...x..x\n \
                x.x.....xxO...x.....x\n \
                x.x...x..x.x.x...x..x\n \

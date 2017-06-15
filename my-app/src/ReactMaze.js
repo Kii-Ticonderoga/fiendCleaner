@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import FiendCleanerModel from './FiendCleanerModel'
 import FiendCleanerView from './FiendCleanerView'
+import GCGhostsView from "./GCGhostsView"
+import GCGhostsModel from "./GCGhostsModel"
 
 class ReactMaze extends Component{
   constructor(props){
@@ -65,9 +67,11 @@ class ReactMaze extends Component{
                                                   return <Wall x={columnIndex} y={rowIndex} blockWidth={blockWidth} blockHeight={blockHeight}/>
                                                 } else if(col === '.') {
                                                   return <Food x={columnIndex} y={rowIndex} blockWidth={blockWidth} blockHeight={blockHeight}/>
-                                               } else if (col instanceof FiendCleanerModel) {
+                                                } else if (col instanceof FiendCleanerModel) {
                                                   this.character = col
                                                   return <FiendCleanerView x={columnIndex} y={rowIndex} blockWidth={blockWidth} blockHeight={blockHeight}/>
+                                                } else if (col instanceof GCGhostsModel) {
+                                                return <GCGhostsView x = {columnIndex} y = {rowIndex} blockWidth={blockWidth} blockHeight={blockHeight}/>
                                                 } else {
                                                   return <span></span>
                                                 }
